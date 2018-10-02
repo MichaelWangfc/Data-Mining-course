@@ -1,0 +1,27 @@
+## 字段信息：
+名称       | 说明   | 类型  |
+--------------|---------|--------|-----
+USER_ID     |用户标识 | INT   |
+SERVICESET_FLUX| 套餐内流量（M)	| DOUBEL
+ONLINE_FLUX_THISMONTH|当月流量|
+ONLINE_FLUX_LASTMONTH|上个月流量|   
+ONLINE_FLUX_TWOMONTHSAGO|上上个月前流量|
+ONLINE_DURATION_THISMONTH|当月上网时长|
+ONLINE_DURATION_LASTMONTH|上个月上网时长（分）|
+ONLINE_DURATION_TWOMONTHSAGO|上个月上网时长（分）|
+CALL_DURATION_THISMONTH|当月通话时长（分）|
+CALL_DURATION_LASTMONTH|上个月通话时长（分）|
+CALL_DURATION_TWOMONTHSAGO|上个月通话时长（分）|
+NET_DURATION |入网时长（天） |LONG
+LAST_RECHARGE_VALUE|最近一次缴费金额（元）
+TOTAL_RECHARGE_VALUE|近三个月缴费金额(元)|
+TOTAL_RECHARGE_COUNT|近三个月缴费次数|
+TOTAL_OWE_COUNT|近三个月欠费次数（次）	|INT
+BALANCED |余额| double
+ONLINE_FLUX_NEXTMONTH|下个月流量|
+
+SERVICE_KIND  |业务类型 | STRING | 2G\3G\4G
+CONTRACTUSER_FLAG|是否合约用户|
+SILENT_SERV_FLAG|是否三无用户|INT|0：否，1：是，三无：无月租费，无最低消费，无来电显示
+PAY_TYPE    | 付费类型 |INT   | 0：预付费，1：后付费
+GROUPUSER_FLAG|是否集团客户	|INT

@@ -1,0 +1,4 @@
+01,HDFS
+02,Zookeeper
+03,HBase
+04,Hive
